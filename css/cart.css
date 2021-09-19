@@ -1,0 +1,47 @@
+.main{
+    background-color: skyblue;
+    height: 100%;
+    color:darkslateblue;
+    padding: 100px;
+    
+}
+.shopping{
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    border:1px solid black);
+    border-collapse: collapse;
+}
+img{
+   width: 80px;
+}
+td,th{
+   padding: 15px;
+   border-bottom: 1px solid #c2d3de;
+}
+.shopping  th:nth-child(2){
+    width: 400px;
+}
+.t-1{
+    float: left;
+    padding: 10px;
+    width: 30%;
+    font-size: 20px;
+    border-radius: 10px;
+    background-attachment: coral;
+    color: white;
+}
+@font-face {
+    font-family: 'nanum';
+    src: url(../font/NanumSquareR.ttf);
+}
+body{
+    margin: 0px;
+    font-family: nanum;
+    font-weight: 400;
+}
+p,h1,h2,h3,h4,div {
+    transform: rotate(0.03deg);
+}
