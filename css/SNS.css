@@ -1,0 +1,19 @@
+.white-box {
+	background: white;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0.5px 0.5px 2px 1px #eee;
+}
+.map{
+    color: skyblue;
+    display: flex;
+    height: 30px;
+
+}
+.btn-list{
+    background-color: skyblue;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px;
+}
