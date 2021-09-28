@@ -7,7 +7,6 @@
 .map{
     color: skyblue;
     display: flex;
-    height: 30px;
 
 }
 .btn-list{
@@ -16,4 +15,50 @@
     border-radius: 5px;
     width: 100px;
     padding: 5px;
+}
+.profile-is{
+    border-left : 2px solid lightgray;
+}
+.bar{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    height: 0.4rem;
+    color: skyblue;
+}
+.progress {
+    height: 0.2rem;
+}
+.about{
+    border-bottom: 2px solid lightgray; 
+}
+.skill{
+    margin-top: 10px;
+    
+}
+.fa-laptop-code{
+    font-size: 100px;
+    color: skyblue;
+    width: 100%;
+    margin-bottom: 20px;
+    margin: auto;
+    text-align: center;
+}
+.text{
+    margin: auto;
+    text-align: center;
+}
+.pill{
+    display: inline-block;
+	border: 1px solid lightgray;
+	border-radius: 100px;
+	padding: 3px 12px 5px 12px;
+	margin-right: 2px;
+	margin-bottom: 5px;
+}
+.admin{
+    border-bottom: 2px solid lightgray;
+    margin-top: 10px;
+}
+.fa-map-marker-alt{
+    margin-right: 4px;
 }
