@@ -5,8 +5,33 @@
 
  # Position
  <div>
-  position : static;  // 기준 없음 
-  position : relative;  // 내 위치가 기준
-  position : absolute; // 기준이 내 부모
-  position : fixed; // 기준이 브라우저창
+  [x]position : static;  // 기준 없음 <br>
+  [x]position : relative;  // 내 위치가 기준<br>
+  [x]position : absolute; // 기준이 내 부모<br>
+  [x]position : fixed; // 기준이 브라우저창<br>
  </div>
+ 
+ #SCSS
+ [x]$변수 : #242424
+ <!---->
+ color: $변수
+ <!----->
+ [x].btn { 
+  <!---->
+  font-size : 16px;
+  <!---->
+  padding : 10px;
+  <!---->
+  background : grey;
+}
+ <!---->
+.btn-green {
+  <!---->
+  @extend .btn;
+  <!---->
+  background : green;
+}
+  <!---->
+
+ #이만 나머지 설명은 구글을 참조하자
+ [구글](https://www.google.co.kr)
