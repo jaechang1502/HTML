@@ -27,7 +27,7 @@
  <!---->
 .btn-green {
   <!---->
-  @extend .btn;   //위에있는 btn css를 
+  @extend .btn;   //위에있는 btn css를  
   <!---->
   background : green;
 }
