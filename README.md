@@ -5,10 +5,10 @@
 
  # Position
  <div>
-  - [x] position : static;  // 기준 없음 <br>
-  - [x] position : relative;  // 내 위치가 기준<br>
-  - [x] position : absolute; // 기준이 내 부모<br>
-  - [x] position : fixed; // 기준이 브라우저창<br>
+  position : static;  // 기준 없음 <br>
+  position : relative;  // 내 위치가 기준<br>
+  position : absolute; // 기준이 내 부모<br>
+  position : fixed; // 기준이 브라우저창<br>
  </div>
  
  # SCSS
